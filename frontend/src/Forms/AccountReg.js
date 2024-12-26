@@ -6,7 +6,7 @@ import { Navigate, useNavigate, Outlet } from 'react-router-dom';
 import Logo from '../pages/Images/Logo2.png';
 import '../pages/PageStyling/Navbar.css';
 
-// Use this instead https://github.com/jannikbuschke/formik-antd
+
 export default function AccountReg() {
   // this is the schema for the form validation using Yup
   // fields validations

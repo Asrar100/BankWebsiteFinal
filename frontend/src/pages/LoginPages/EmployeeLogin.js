@@ -5,7 +5,7 @@ import * as Yup from "yup";
 import { useNavigate } from "react-router-dom";
 import { useState } from "react";
 import Logo from "../Images/Logo2.png";
-// Use this instead https://github.com/jannikbuschke/formik-antd
+
 export default function EmployeeLogin() {
   const customerRegSchema = Yup.object().shape({
     username: Yup.string().required(),

@@ -6,7 +6,7 @@ import * as Yup from 'yup';
 import { useNavigate } from 'react-router-dom';
 import '../PageStyling/LoginPage.css';
 import Logo from '../Images/Logo2.png';
-// Use this instead https://github.com/jannikbuschke/formik-antd
+
 export default function CustomerLogin() {
   const customerRegSchema = Yup.object().shape({
     username: Yup.string().required(),
